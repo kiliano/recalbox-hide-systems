@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recalbox Hide Systems</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Recalbox Hide Systems</h1>
+    <div id="emulators">
+        <div class="loading">Loading emulators...</div>
+    </div>
+
+    <div id="generate">
+        <button id="generateBtn">Generate Code</button>
+    </div>
+
+    <div id="result">
+        <div class="info">
+            Add the code at the end of your <strong>recalbox.conf</strong>
+        </div>
+        <pre id="code"></pre>
+        <button id="copyCode" onclick="copyCode()">Copy code</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
