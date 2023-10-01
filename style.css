@@ -161,3 +161,18 @@ pre {
     background: #111;
     font-size: 11px;
 }
+
+/* Collaboration */
+#collaborate {
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+#collaborate a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#collaborate a:hover, #collaborate a:focus {
+    text-decoration: none;
+}
